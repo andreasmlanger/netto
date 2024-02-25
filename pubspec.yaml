@@ -19,11 +19,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cloud_firestore: ^4.14.0
-  firebase_core: ^2.24.2
-  flutter_local_notifications: ^16.3.1
+  cloud_firestore: ^4.15.4
+  firebase_core: ^2.25.4
+  flutter_local_notifications: ^16.3.2
   flutter_timezone: ^1.0.8
-  provider: ^6.0.5
+  provider: ^6.1.1
   timezone: ^0.9.2
 
 

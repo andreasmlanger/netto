@@ -10,7 +10,7 @@ class Screen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color textColor = (index > 2 && index < 5) ? Colors.black : Colors.white;
+    Color textColor = (index > 1) ? Colors.black : Colors.white;
     return Material(
       type: MaterialType.transparency,
       child: Container(
@@ -26,15 +26,6 @@ class Screen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
-                Text(
-                  coupon.category,
-                  style: TextStyle(
-                    fontSize: 50.0,
-                    color: textColor,
-                    fontFamily: 'IndieFlower',
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 20.0),
                   child: Card(

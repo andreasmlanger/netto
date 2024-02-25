@@ -22,7 +22,6 @@ class _CouponCarouselState extends State<CouponCarousel> {
     if (coupons != null) {
       for (var doc in coupons.docs) {
         couponList.add(Coupon(
-          category: doc.get('category'),
           number: doc.get('number'),
           discount: doc.get('discount'),
           type: doc.get('type'),

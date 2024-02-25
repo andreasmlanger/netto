@@ -1,4 +1,7 @@
 google-services.json
+firebase.json
+.emails
+.env
 
 # Miscellaneous
 *.class
